@@ -22,7 +22,7 @@ python3 experiments/FEMNIST/prototype/server.py -na -ni
 ```
 for conventional FL, or run
 ```python3
-# PruneFL
+# HeteroPrune
 python3 experiments/FEMNIST/prototype/server.py -a -i
 ```
 for HeteroPrune.
