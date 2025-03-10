@@ -1,9 +1,5 @@
 # Description
-This is the official code repository for the following paper accepted at TNNLS 2022:
 
-Jiang, Y., Wang, S., Valls, V., Ko, B. J., Lee, W. H., Leung, K. K., & Tassiulas, L. (2022). Model pruning enables efficient federated learning on edge devices. IEEE Transactions on Neural Networks and Learning Systems.
-
-This repository has some overlap with our model pruning library (https://github.com/jiangyuang/ModelPruningLibrary). However, this repository is for reproducing experiments from the paper only. We will not update this repository along with the model pruning library.
 
 # Setup
 ```python3
@@ -15,7 +11,7 @@ For each new terminal, please run
 ```shell
 source setenv.sh
 ```
-in the `PruneFL` root folder for the correct environment.
+in the `HeteroPrune` root folder for the correct environment.
 
 To run the prototype, first we need to update the `configs/network.py` configuration with appropriate address and port.
 
@@ -29,7 +25,7 @@ for conventional FL, or run
 # PruneFL
 python3 experiments/FEMNIST/prototype/server.py -a -i
 ```
-for PruneFL.
+for HeteroPrune.
 
 On each client side, always run
 ```python3
@@ -41,7 +37,7 @@ For each new terminal, please run
 ```shell
 source setenv.sh
 ```
-in the `PruneFL` root folder for the correct environment.
+in the `HeteroPrune` root folder for the correct environment.
 
 To auto-run all experiments, use
 ```shell
